@@ -2,15 +2,15 @@
 
 **Selección del proyecto**
 
-Para llevar adelante el desarrollo del proyecto final del presente curso, como primera instancia se determina el sistema a implementar entre varias opciones, las cuales son las siguientes:
+Para llevar adelante el desarrollo del proyecto final del presente curso, se prevee como primera instancia considerar varias opciones las cuales son las siguientes:
 
 - **Proyecto 1: Estación meteorológica**
 
-Desarrollar una estación meteorológica que recolecte datos del clima como temperatura, humedad, presión atmosférica, y los muestre en un LCD. Los datos también se pueden enviar a un servidor web utilizando el ESP32 para monitoreo remoto.
+Desarrollar una estación meteorológica que recolecte datos del clima como temperatura, humedad, presión atmosférica, y los muestre en un LCD. Los datos también se pueden enviar a un servidor web utilizando el ESP8266 para monitoreo remoto.
 
 - **Proyecto 2: Sistema de control para invernaderos**
 
-Desarrollar un sistema de control inteligente para un invernadero que regule automáticamente la temperatura. El sistema recolectará datos ambientales y los mostrará en un LCD, además de enviar estos datos a un servidor web para monitoreo utilizando el ESP32. El sistema también permitirá el control manual de una alarma (buzzer) y un ventilador mediante botones.
+Desarrollar un sistema de control inteligente para un invernadero que regule automáticamente la temperatura. El sistema recolectará datos ambientales y los mostrará en un LCD, además de enviar estos datos a un servidor web para monitoreo utilizando el ESP8266. El sistema también permitirá el control manual de una alarma (buzzer) y un ventilador mediante botones.
 
 Los aspectos a analizar a la hora de elegir entre los dos proyectos son:
 
@@ -19,7 +19,7 @@ Los aspectos a analizar a la hora de elegir entre los dos proyectos son:
 - Utilidad del sistema
 - Disponibilidad de módulos de Hardware}
 
-A continuación se presentará una tabla donde se ponderan en puntajes la importancia de factores determinantes a la hora de realizar el proyecto:
+A continuación se presentará una tabla donde se ponderan en puntajes la importancia de estos factores determinantes mencionados anteriormente a la hora de realizar el proyecto:
 
 | **Proyecto** | **Disponibilidad de Hardware**<br><br>**Preponderancia: 10** | **Utilidad del proyecto**<br><br>**Preponderancia: 5** | **Tiempo de implementación**<br><br>**Preponderancia: 8** | **Suma de preponderancia de puntajes** |
 | --- | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ _Tabla 1. Ponderación de los proyectos alternativos para el trabajo final._
 
 Vale aclarar que la puntuación por unidad se hizo teniendo como referencia una escala de 1 a 10, considerando como más positivo un valor de 10 y su contraparte un valor de 1.
 
-Se disponen casi en su totalidad los dispositivos necesarios para ambos proyectos, aunque si se tiene en cuenta la utilidad de cada uno de los casos, particularmente para mí suma más construir un primer prototipo de un sistema de control de invernadero que una estación meteorológica, ya que para esta opción se dispone de servicios de meteorología, aunque puede ser un complemento en un futuro del sistema de control de invernadero.
+Se disponen casi en su totalidad de los dispositivos necesarios para ambos proyectos, aunque si se tiene en cuenta la utilidad de cada uno de los casos, particularmente para mí suma más construir un primer prototipo de un sistema de control de invernadero que una estación meteorológica, ya que para esta opción se dispone de servicios de meteorología, aunque puede ser un complemento en un futuro del sistema de control de invernadero.
 
 **Breve descripción del sistema seleccionado**
 
