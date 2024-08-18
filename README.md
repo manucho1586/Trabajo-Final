@@ -24,9 +24,9 @@ A continuación se presentará una tabla donde se ponderan en puntajes la import
 | **Proyecto** | **Disponibilidad de Hardware**<br><br>**Preponderancia: 10** | **Utilidad del proyecto**<br><br>**Preponderancia: 5** | **Tiempo de implementación**<br><br>**Preponderancia: 8** | **Suma de preponderancia de puntajes** |
 | --- | --- | --- | --- | --- |
 | Proyecto 1 | 8   | 4   | 5   | \-  |
-| 80  | 20  | 40  | 140 |
+|| 80  | 20  | 40  | 140 |
 | Proyecto 2 | 7   | 5   | 6   | \-  |
-| 70  | 25  | 48  | 143 |
+|| 70  | 25  | 48  | 143 |
 
 _Tabla 1. Ponderación de los proyectos alternativos para el trabajo final._
 
