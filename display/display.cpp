@@ -64,7 +64,7 @@
 #define SPI1_MOSI PA_7
 #define SPI1_MISO PA_6
 #define SPI1_SCK  PA_5
-#define SPI1_CS   PD_14
+//#define SPI1_CS   PD_14
 
 #define DISPLAY_IR_SET_GDRAM_ADDR  0b10000000
 
@@ -116,7 +116,7 @@ DigitalOut displayEn( D9 );
 
 I2C i2cPcf8574( I2C1_SDA, I2C1_SCL ); 
 
-DigitalOut spiSt7920ChipSelect(SPI1_CS);
+//DigitalOut spiSt7920ChipSelect(SPI1_CS);
 SPI spiSt7920(SPI1_MOSI, SPI1_MISO, SPI1_SCK);
 
 //=====[Declaration of external public global variables]=======================
@@ -392,7 +392,7 @@ static void displayCodeWrite( bool type, uint8_t dataBus )
   
         case DISPLAY_CONNECTION_SPI:
             spiSt7920.lock();
-            spiSt7920ChipSelect = ON;
+            //spiSt7920ChipSelect = ON;
             if ( type == DISPLAY_RS_INSTRUCTION )           
                 spiSt7920.write( ST7920_SPI_SYNCHRONIZING_BIT_STRING |
                                   ST7920_SPI_RW_WRITE |
@@ -403,7 +403,7 @@ static void displayCodeWrite( bool type, uint8_t dataBus )
                                   ST7920_SPI_RS_DATA );               
             spiSt7920.write( dataBus & 0b11110000 );      
             spiSt7920.write( (dataBus<<4) & 0b11110000 );
-            spiSt7920ChipSelect = OFF;
+            //spiSt7920ChipSelect = OFF;
             spiSt7920.unlock();
         break;
     }    
