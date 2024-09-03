@@ -6,17 +6,17 @@ A continuación se expone el estado de avance de los requerimientos del sistema 
     <th>Requerimiento</th>
   </tr>
   <tr>
-    <td style="background-color: green; color: black">1. Sensado de Temperatura y humedad (VERDE)</td>
+    <td style="background-color: green; color: black">Requerimiento 1. Sensado de Temperatura y humedad (VERDE)</td>
   </tr>
   <tr>
-    <td style="background-color: green; color: black">2. Activación de alarma y ventilador en caso de sobre temperatura (VERDE)</td>
+    <td style="background-color: green; color: black">Requerimiento 2. Activación de alarma y ventilador en caso de sobre temperatura (VERDE)</td>
   </tr>
   <tr>
-    <td style="background-color: green; color: black">3. Activación/desativación de alarma y ventilador con botones (VERDE)</td>
+    <td style="background-color: green; color: black">Requerimiento 3. Activación/desativación de alarma y ventilador con botones (VERDE)</td>
   </tr>
   <tr>
-    <td style="background-color: yellow; color: black">4. Muestra de temperatura en pantalla LCD (AMARILLO)</td>
+    <td style="background-color: yellow; color: black">Requerimiento 4. Muestra de temperatura en pantalla LCD (AMARILLO)</td>
   </tr>
   <tr>
-    <td style="background-color: red; color: black">5. Muestra de estado de las variables del sistema en web server mediante ESP8266 (ROJO)
+    <td style="background-color: red; color: black">Requerimiento 5. Muestra de estado de las variables del sistema en web server mediante ESP8266 (ROJO)
 </table>
