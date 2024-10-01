@@ -27,6 +27,8 @@
 
 #define delay(ms)      thread_sleep_for( ms )
 
+unsigned int len(const char *str);
+
 //=====[#include guards - end]=================================================
 
 #endif // _ARM_BOOK_LIB_H_
